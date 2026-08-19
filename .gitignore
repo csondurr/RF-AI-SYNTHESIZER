@@ -1,0 +1,13 @@
+*.asv
+*.m~
+slprj/
+codegen/
+*.mex*
+*.autosave
+Kusursuz_AI_Model.mat
+Nihai_Model_Ciktilari/
+S21_Exports/
+*.bak
+*.log
+.DS_Store
+Thumbs.db

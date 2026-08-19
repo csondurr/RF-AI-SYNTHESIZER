@@ -1,4 +1,4 @@
-function AI_Bilingual_App()
+function Uygulama()
     if ~isfile('Kusursuz_AI_Model.mat')
         errordlg('Critical Error: Kusursuz_AI_Model.mat not found. Please train and save your network first.', 'System Error');
         return;

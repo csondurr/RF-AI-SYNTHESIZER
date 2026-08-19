@@ -309,25 +309,13 @@ This generates the synthetic dataset, performs the holdout split, trains the net
 
 ### 4. Start the application
 
-The source currently declares the primary function as:
+Run the application directly:
 
 ```matlab
-function AI_Bilingual_App()
+Uygulama
 ```
 
-MATLAB convention requires the primary function name to match its file name. If the repository file is named `Uygulama.m`, use either of these approaches before launching:
-
-1. Rename `Uygulama.m` to `AI_Bilingual_App.m`, then run:
-
-   ```matlab
-   AI_Bilingual_App
-   ```
-
-2. Alternatively, change its first line to `function Uygulama()`, then run:
-
-   ```matlab
-   Uygulama
-   ```
+The primary function now matches the repository file name, so no manual rename is required.
 
 The application will stop with an error dialog if `Kusursuz_AI_Model.mat` is not available in the current MATLAB path.
 
@@ -476,3 +464,17 @@ Confirm that the loaded `.mat` file contains a variable named exactly `net` and 
 ## Disclaimer
 
 This repository is intended for education and experimentation. Predictions are based on a simplified simulated filter family and must be independently verified before use in RF design, calibration, quality-control, or safety-critical workflows.
+
+
+## Repository maintenance
+
+**Evidence boundary:** Synthetic-model validation only. Generated GUI predictions must not be interpreted as measured filter parameters or production-ready synthesis results.
+
+- [Validation record](docs/VALIDATION.md)
+- [Contribution guide](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [Citation metadata](CITATION.cff)
+
+## License
+
+Copyright (c) 2026 Cem Sondur. Distributed under the [MIT License](LICENSE). Third-party components remain subject to their original licenses.
