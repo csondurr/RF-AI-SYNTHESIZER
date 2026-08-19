@@ -325,7 +325,7 @@ The application will stop with an error dialog if `Kusursuz_AI_Model.mat` is not
 |---|---|
 | `main.m` | Generates data, defines the CNN, trains it, validates during training, and saves the model |
 | `Uygulama.m` | Defines the bilingual interactive inference application |
-| `RF Filter AI Synthesizer.pdf` | Technical report covering theory, equations, architecture, training, discussion, and references |
+| `docs/RF Filter AI Synthesizer.pdf` | Technical report covering theory, equations, architecture, training, discussion, and references |
 | `Kusursuz_AI_Model.mat` | Generated trained model; created after running `main.m` |
 | `README.md` | Project documentation |
 
